@@ -1,0 +1,381 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #eee;
+}
+
+.hero{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-image{
+    width: 300px;
+    position: absolute;
+    z-index: 1;
+}
+
+.hero-img{
+    width: 100%;
+}
+
+.circle{
+    height: 200px;
+    width: 200px;
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+
+.s, .H, .O, .E {
+    font-size: 200px;
+    font-family: out-ward; 
+    margin: 50px;
+}
+.H{
+    margin-right: 110px;
+}
+
+.section-two{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.second-part {
+    width: 100%;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(280px,1fr));
+    gap: 50px;
+}
+
+
+
+.card{
+    background: white;
+    padding: 20px;
+    border-radius: 15px 15px 0 0;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.showcase{
+    position: relative;
+    width: 100%;
+    margin: 0px 0;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.price{
+    font-family: "arial", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 4px;
+    padding-bottom: 10px;
+    width: 100%;
+}
+
+.card-circle {
+    width: 184px;
+    height: 184px;
+    border-radius: 50%;
+    position: absolute;
+    background: rgb(54, 193, 226);
+    background: linear-gradient(90deg, rgba(54, 193, 226, 1) 0%, rgba(27, 66, 97, 1) 100%);
+
+}
+
+.card-image{
+    width: 300px;
+    position: absolute
+}
+
+.card-img{
+    width: 100%;
+}
+
+.shoe-name{
+    font-family: "olive", sans-serif;
+    letter-spacing: 6px;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+.explanation {
+    font-family: 'Segoe UI Regular';
+    font-size: 9px;
+    letter-spacing: 2px;
+    padding-bottom: 15px;
+}
+
+.size {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    font-family: "arial", sans-serif;
+}
+
+.number {
+    font-size: 9px;
+    padding-right: 30px;
+    letter-spacing: 2px;
+}
+
+.cart-box{
+    width: 100%;
+    background: #475b5f;
+    color: white;
+    font-family: "arial", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 3px;
+    font-size: 13px;
+    cursor: pointer;
+    padding: 15px;
+    margin-top: 10px;
+    position: absolute;
+    top: 450px;
+    left: 0;
+    border-radius: 0 0 15px 15px;
+}
+
+.card-img-one{
+    transform: scaleX(-1);
+    rotate: -25deg;
+}
+
+.card-img-two{
+    transform: scaleX(-1);
+}
+
+.card-img-three{
+    transform: scaleX(-1);
+    width: 250px;
+    margin-left: 15px;
+}
+
+.circle-three{
+    background: rgb(18,216,141);
+    background: linear-gradient(180deg, rgba(18,216,141,1) 68%, rgba(0,34,7,1) 100%);
+}
+
+.circle-four{
+    background: rgb(71,134,81);
+    background: linear-gradient(180deg, rgba(71,134,81,1) 68%, rgba(12,16,24,1) 100%);
+}
+
+.card-img-four{
+    transform: scaleX(-1);
+    width: 200px;
+    margin-left: 45px;
+}
+
+.circle-five{
+    background: rgb(107,123,122);
+background: linear-gradient(180deg, rgba(107,123,122,1) 68%, rgba(17,20,35,1) 100%);
+}
+
+.card-img-five{
+    transform: scaleX(-1);
+    width: 300px;
+}
+
+.circle-six{
+    background: rgb(80,48,81);
+    background: linear-gradient(180deg, rgba(80,48,81,1) 0%, rgba(33,40,52,1) 69%, rgba(77,93,131,1) 100%);
+}
+
+.card-img-six{
+    width: 200px;
+    margin-left: 45px;
+}
+
+.circle-seven{
+    background: rgb(225,149,82);
+    background: linear-gradient(58deg, rgba(225,149,82,1) 47%, rgb(223, 224, 221) 59%);
+}
+
+.card-img-seven{
+    width: 250px;
+    margin-left: 15px;
+    rotate: 10deg;
+}
+
+.circle-eight{
+    background: rgb(240,238,242);
+    background: linear-gradient(236deg, rgba(240,238,242,1) 50%, rgba(220,75,67,1) 93%);
+}
+
+.card-img-eight{
+    transform: scaleX(-1);
+    width: 230px;
+    margin-left: 15px;
+    rotate: -15deg;
+}
+
+.circle-nine{
+    background: rgb(218, 133, 60);
+    background: linear-gradient(90deg, rgba(218, 133, 60, 1) 0%, rgba(133, 35, 20, 1) 100%);
+}
+
+
+
+
+@media screen and (max-width: 1100px) {
+    .circle{
+        height: 150px;
+        width: 150px;
+    }
+
+    .hero-image{
+       width: 250px; 
+    }
+
+    
+    .s{
+    font-size: 150px;
+    margin: 30px;
+    }
+
+    .H{
+    font-size: 150px;
+    margin: 30px;
+    margin-right: 110px;
+    }
+
+    .O{
+    font-size: 150px;
+    margin: 30px; 
+    }
+
+    .E{
+    font-size: 150px;
+    margin: 50px;
+    }
+}
+
+
+
+@media screen and (max-width: 900px) {
+    .circle{
+        height: 120px;
+        width: 120px;
+    }
+
+    .hero-image{
+       width: 170px; 
+    }
+
+    
+    .s{
+    font-size: 120px;
+    margin: 20px;
+    }
+
+    .H{
+    font-size: 120px;
+    margin: 20px;
+    }
+
+    .O{
+    font-size: 120px;
+    margin: 45px; 
+    }
+
+    .E{
+    font-size: 120px;
+    margin: 25px;
+    }
+}
+
+
+@media screen and (max-width: 650px) {
+    .circle{
+        height: 90px;
+        width: 90px;
+    }
+
+    .hero-image{
+       width: 130px; 
+    }
+
+    
+    .s{
+    font-size: 100px;
+    margin: 20px;
+    }
+
+    .H{
+    font-size: 100px;
+    margin: 20px;
+    margin-right:0px;
+    }
+
+    .O{
+    font-size: 100px;
+    margin: 40px; 
+    }
+
+    .E{
+    font-size: 100px;
+    margin: 20px;
+    }
+}
+
+
+
+@media screen and (max-width: 425px) {
+    .circle{
+        height: 50px;
+        width: 50px;
+    }
+
+    .hero-image{
+       width: 80px; 
+    }
+
+    
+    .s{
+    font-size: 60px;
+    margin: 10px;
+    }
+
+    .H{
+    font-size: 60px;
+    margin: 10px;
+    }
+
+    .O{
+    font-size: 60px;
+    margin: 10px; 
+    }
+
+    .E{
+    font-size: 60px;
+    margin: 15px;
+    }
+
+    .size{
+        margin-bottom:10px ;
+    }
+    
+    .cart-box{
+        top: 465px;
+    }
+}
